@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitanshu's Portfolio - Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebargo">
+
+            <nav>
+                <ul>
+                    <li> <a href="/"> Home</a> </li>
+                    <!-- <li> <a href="/intro.html"> My Intro</a> </li> -->
+                    <li> <a href="/service.html"> Services</a> </li>
+                    <li> <a href="/skills.html"> Skills</a> </li>
+                    <li> <a href="/contact.html"> Contact Me</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamberg">
+                <img src="Images/menu-button-of-three-horizontal-lines.png" alt="hamburger" class="ham" width="23">
+                <img src="Images/close.png" alt="crosss" class="cross" width="23">
+            </div>
+
+
+            <div class="contactform">
+                <h1> Contact me for Work / General Enquires</h1>
+                <div class="con">
+                    <form
+                        action="https://script.google.com/macros/s/AKfycbzNDSH15HqnKP-T0PB0Jg5BSzEhP8HPZVLthLaQPA-YdC49G5hKnbmWTpFuaI_KJZZ3/exec"
+                        name="myForm" class="gform" onsubmit="return validateForm()" method="post"
+                        data-email="gormitanshu03@gmail.com">
+                        <div class="inputbox" id="name">
+                            <label for="clientemail" class="form-label">Name</label>
+                            <input type="text" placeholder="Eg: Gor Mitanshu" name="user" class="form-control" id="user"
+                                autocomplete="off"><b>
+                                <div id="username-error" style="font-size: 12px; color: red; display: none;"> </div>
+                            </b>
+                        </div>
+
+                        <div class="inputbox" id="Email">
+                            <label for="clientemail" class="form-label">Email address</label>
+                            <input type="text" placeholder="Eg: xyz@gmail.com" name="email" class="form-control"
+                                id="email" autocomplete="off"><b>
+                                <div id="email-error" style="font-size: 12px; color: red; display: none;"> </div>
+                            </b>
+                        </div>
+
+                        <div class="inputbox" id="Number">
+                            <label for="Phone" class="form-label">Phone Number</label>
+                            <input type="text" name="mobile" class="form-control" id="mobile"
+                                placeholder="Eg: 1234567890">
+                            <b>
+                                <div id="numbererr" style="font-size: 12px; color: red; display: none;"></div>
+                            </b>
+                        </div>
+
+                        <div class="inputbox">
+                            <label for="clientenquiry" class="form-label">Enquiry</label>
+                            <textarea placeholder="How can i help you?" name="Feedback" required></textarea>
+                        </div>
+
+                        <div class="mb-3" id="form-check">
+                            <input type="checkbox" class="form-check-input" id="isclient" checked>
+                            <label class="form-check-label" for="isclient">I want you to work on a project with me
+                            </label>
+                        </div>
+
+                        <!-- <div class="inputbox">
+                        <button type="submit">Submit</button>
+                    </div> -->
+                        <button type="submit" class="btn btn-sm">Submit</button>
+
+
+                        <!-- <div class="mb-3">
+                        <label for="clientemail" class="form-label">Name</label>
+                        <input type="name" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientemail" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email and phone with anyone else.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientphone" class="form-label">Phone</label>
+                        <input type="phone" class="form-control" id="clientphone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientemail" class="form-label">Enquiry</label>
+                        <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3" id="form-check">
+                        <input type="checkbox" class="form-check-input" id="isclient" checked>
+                        <label class="form-check-label" for="isclient">I want you to work on a project with me </label>
+                    </div>
+                    <button type="submit" class="btn btn-sm">Submit</button> -->
+                    </form>
+
+                    <div class="contactInfo">
+                        <div class="box">
+                            <div class="icon">
+                                <img src="Images/location-outline.svg" alt="" style="width: 40px;">
+                            </div>
+                            <div class="text">
+                                <h3>Address</h3>
+                                <p>33/2 baliyaka Society,<br> near Arbuda Mill,<br> Sukhramnagar Road ,Rakhial, <br>
+                                    Ahmedabad</p>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="icon">
+                                <img src="Images/call-outline.svg" alt="" style="width: 40px;">
+                            </div>
+                            <div class="text">
+                                <h3>Phone</h3>
+                                <a href="tel:+91-9558993690">+91-9558993690</a>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="icon">
+                                <img src="Images/logo-whatsapp.svg" alt="" style="width: 40px;">
+                            </div>
+                            <div class="text">
+                                <h3>Phone</h3>
+                                <a href="https://wa.me/+91-9558993690">+91-9558993690</a>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="icon">
+                                <img src="Images/mail-outline.svg" alt="" style="width: 40px;">
+                            </div>
+                            <div class="text">
+                                <h3>Email</h3>
+                                <a href="mailto:gor.mitanshu3@gmail.com">gor.mitanshu3@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="icon">
+                                <img src="Images/logo-instagram.svg" alt="" style="width: 40px;">
+                            </div>
+                            <div class="text">
+                                <h3>Instagram</h3>
+                                <a target=”_blank” href="https://instagram.com/gor_mitanshu">gor_mitanshu</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

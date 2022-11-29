@@ -1,0 +1,87 @@
+@media(max-width:1650px) {
+    .devpic img {
+        height: 50vh;
+    }
+}
+
+@media(max-width:1460px) {
+    .button {
+        /* margin-top: 12px; */
+        display: flex;
+        padding-top: 31px;
+        flex-direction: row;
+    }
+
+    .btn {
+        font-size: 19px;
+    }
+}
+
+
+@media(max-width:1300px) {
+    .devpic img {
+        height: 35vh;
+        padding-top: 20%;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+
+
+    /* for skills */
+
+
+    .skills {
+        height: 100%;
+        width: 100%;
+    }
+
+    .skills-bar {
+        width: 50vw;
+        font-size: large;
+        height: 64vh;
+    }
+
+    .skills-bar .bar .info span {
+        font-size: small;
+    }
+
+    .bar .progress-line span::after {
+        padding: 0px 8px;
+    }
+}
+
+
+@media(max-width: 1200px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media(max-width:650px) {
+    .skills-bar {
+        width: 72vw;
+    }
+
+    .con {
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column-reverse;
+        width: 80%;
+    }
+}
+
+@media(max-width:400px) {
+    .skills-bar {
+        width: 80vw;
+    }
+
+    .box a {
+        color: black;
+        text-decoration: none;
+        font-size: 12px;
+    }
+  
+}
